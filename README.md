@@ -40,7 +40,7 @@ war” and could return genres like superhero movies (“Captain America:
 Civil War”) or westerns (Wild Wild West). We’ll have to be careful on how we tweak things and look at data points independently.
 
 **7. Provide clear steps for the projects:**
-1. [] Submitting the proposal
+[] 1. Submitting the proposal
 2. [] Outlining the necessary coding components
 3. [] Need a way to review CSV files
 4. [] Need a way to parse keywords in a CSV file remove junk data like “id:”so we just have the keywords by extracting “name:”
