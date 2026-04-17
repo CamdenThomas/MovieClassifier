@@ -4,25 +4,17 @@
 - James Richardson
 
 **2. Topic:**
-The topic we’d like to approach is a multi-label classification problem for movie
-genres; using keywords as features to predict what labels to apply. Moviegoers
-can make quick decisions on whether they want to go see a particular movie just
-from hearing “superhero movie” or “musical” as a descriptor. Correct
-classification is more important than ever when using streaming services and
-reviewing selections based on these keywords. The goal of this model is to better
-classify movies into their respective genres, and be able to apply that to new
-media just based on its keywords.
+The topic we’d like to approach is a multi-label classification problem for movie genres; using keywords as features to predict what labels to apply. 
+Moviegoers can make quick decisions on whether they want to go see a particular movie just from hearing “superhero movie” or “musical” as a descriptor. 
+Correct classification is more important than ever when using streaming services and reviewing selections based on these keywords. 
+The goal of this model is to better classify movies into their respective genres, and be able to apply that to new media just based on its keywords.
 
 **3. Describe the data used:**
-TMDB 5000 Movie Dataset from Kaggle contains 20 categories of
-characteristics, such as keywords, genres, runtime, and cast/crew for
-nearly 5000 movies. Many of the columns could be used as a list of
-features, and most will provide more than 30 features. This provides
-freedom to analyze which category performs best at classifying movie
-genres. The Category keywords appear to be the most closely related
-and have the highest number of unique values. This will be a more than
-adequate subset to train a model to use keywords (or a different category)
-to predict what a movie genre is.
+TMDB 5000 Movie Dataset from Kaggle contains 20 categories of characteristics, such as keywords, genres, runtime, and cast/crew for nearly 5000 movies. 
+Many of the columns could be used as a list of features, and most will provide more than 30 features. 
+This provides freedom to analyze which category performs best at classifying movie genres. 
+The Category keywords appear to be the most closely related and have the highest number of unique values. 
+This will be a more than adequate subset to train a model to use keywords (or a different category) to predict what a movie genre is.
 
 **4. Describe the machine learning approaches used:**
 - Grid check
@@ -35,12 +27,12 @@ to predict what a movie genre is.
 [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data?select=tmdb_5000_movies.csv) 
 
 **6. Explain what makes the data interesting and challenging:**
-Genres can make or break a movie. The most challenging aspect of thisdataset is keyword consistency. A movie might have a keyword like “civil
-war” and could return genres like superhero movies (“Captain America:
-Civil War”) or westerns (Wild Wild West). We’ll have to be careful on how we tweak things and look at data points independently.
+Genres can make or break a movie. The most challenging aspect of thisdataset is keyword consistency. 
+A movie might have a keyword like “civil war” and could return genres like superhero movies (“Captain America: Civil War”) or westerns (Wild Wild West). 
+We’ll have to be careful on how we tweak things and look at data points independently.
 
 **7. Provide clear steps for the projects:**
-[] 1. Submitting the proposal
+1. [x] Submitting the proposal
 2. [] Outlining the necessary coding components
 3. [] Need a way to review CSV files
 4. [] Need a way to parse keywords in a CSV file remove junk data like “id:”so we just have the keywords by extracting “name:”
